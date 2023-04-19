@@ -1,0 +1,19 @@
+{
+    "name": "guntars/bank_converter",
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Guntars",
+            "email": "gvaivods@gmail.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.5",
+        "ext-simplexml": "*",
+        "ext-readline": "*"
+    }
+}
